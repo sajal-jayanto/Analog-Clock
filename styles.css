@@ -1,0 +1,49 @@
+.center-square {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.second {
+  width: 190px;
+  height: 5px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  left: 40%;
+  top: 50%;
+  border-radius: 5px;
+}
+
+
+.minutes {
+  width: 195px;
+  height: 8px;
+  background : black;
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  left: 40%;
+  top: 50%;
+  border-radius: 5px;
+
+}
+
+.hour {
+  width: 170px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  left: 41%;
+  top: 50%;
+  border-radius: 5px;
+}
